@@ -8,8 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3"
-
+gem "jekyll", "~> 4.4"
+gem "github-pages", group: :jekyll_plugins
 gem "jekyll-theme-hydejack", "~> 9.1"
 
 # If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers), 
