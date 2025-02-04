@@ -1,0 +1,13 @@
+.site-logo {
+  width: 200px;  /* 원하는 크기로 변경 */
+  height: 200px; /* 비율 유지 */
+  border-radius: 50%; /* 원형 유지 */
+  object-fit: contain; /* 이미지 비율 조절 */
+}
+
+.body {
+  background-image: url("../assets/img/IMG_2482.jpeg");
+  background-size: cover; /* 전체 화면 맞춤 */
+  background-position: center; /* 이미지 중앙 정렬 */
+  background-repeat: no-repeat; /* 반복 방지 */
+}
