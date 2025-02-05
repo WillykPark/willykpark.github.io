@@ -20,7 +20,7 @@ baseurl:               ""
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Will YK Park's Tech Blog
+title:                 Yongkyoon Park
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               " `Machine Learning`, `Computer Vision`, `Robotics` "
+tagline:               " Will's tech blog "
 
 # A list of keywords for your blog
 keywords:              []
@@ -93,6 +93,9 @@ remote_theme: hydecorp/hydejack@v9
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/IMG_2482.jpg
 accent_color:          rgb(79,177,186)
+
+# favicon image
+favicon: /assets/icons/favicon.ico
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -359,11 +362,10 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+#  name:                <firstname> <lastname>
+  # links:
+  #  - https://linkedin.com/in/yongkyoon-park-178289258
+  #  - https://github.com/WillykPark
 
 
 # Plugin Configs

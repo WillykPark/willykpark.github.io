@@ -11,3 +11,10 @@
   background-position: center; /* 이미지 중앙 정렬 */
   background-repeat: no-repeat; /* 반복 방지 */
 }
+
+.tagline {
+  white-space: nowrap; /* 자동 줄바꿈 방지 */
+  overflow-wrap: normal; /* 강제 개행 방지 */
+  word-break: keep-all; /* 단어 단위로 줄바꿈 */
+  display: inline-block; /* 한 줄 유지 */
+}
